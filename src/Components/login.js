@@ -8,22 +8,22 @@ const Login = () => {
             </nav>
             <div className="login">
 
-                <form className="form">
+                <form className="form-lg">
                     <div className="form-heading">
                         LOGIN
                     </div>
                     <div className="input-container">
                         <label>Username </label>
-                        <input type="text" name="uname" required />
+                        <input type="text"  className="text" name="uname" required />
 
                     </div>
                     <div className="input-container">
                         <label>Password </label>
-                        <input type="password" name="pass" required />
+                        <input type="password" className="text" name="pass" required />
 
                     </div>
                     <div className="button-container">       
-                    <button type="submit" className="button">Login</button>
+                    <button className="button-lg" type="submit" >Login</button>
                     </div>
                 </form>
             </div>

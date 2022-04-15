@@ -24,7 +24,11 @@ body {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/30/26/76/1000_F_230267658_3a4SsjFjMOcqF5SmfLLeGJeoHYwDbKnU.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .notfound {
