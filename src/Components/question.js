@@ -1,5 +1,8 @@
 import React from "react"
+import { Editor } from "react-draft-wysiwyg";
+import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import "./question.css"
+
 const Question = () => {
     return (
         <>
@@ -20,6 +23,12 @@ const Question = () => {
                 </div>
                 <div className="column" >
                     <p></p>
+                    <Editor
+         toolbarClassName="toolbarClassName"
+         wrapperClassName="wrapperClassName"
+         editorClassName="editorClassName"
+         wrapperStyle={{ width: 650, height:550, border: "1px solid black" }}
+      />
                 </div>
                 <div className="buttonbox">
             <button type="submit" className="button0">Back</button>
