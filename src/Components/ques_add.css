@@ -1,0 +1,50 @@
+.form_ques{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 150px;
+    
+}
+.formheading{
+    border-style: inset;
+    margin-bottom: 1cm;
+    font-weight: 700;
+    font-size: 0.9cm;
+    background-color: #cecece;
+    color: rgb(21, 23, 24);
+}
+.add_questions {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+   
+    
+}
+.input-container {
+    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300
+}
+.button_ques{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .button{
+      background-color: #cecece;
+      color: #000000;
+      font-size: 0.7cm;
+      margin-top: 0.5cm;
+  }
