@@ -1,6 +1,6 @@
 import React from "react"
-import "./ques_add.css"
-const Ques_add = () => {
+import "./QuesAdd.css"
+const QuesAdd = () => {
   return (
     <>
       <nav className="navbar" >
@@ -63,4 +63,4 @@ const Ques_add = () => {
   )
 }
 
-export default Ques_add;
+export default QuesAdd;
